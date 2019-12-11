@@ -2,6 +2,7 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const bodyParser= require ("body-parser");
+const helpers = require('handlebars-helpers')(['string'])
 const to = require('await-to-js').default;
 
 
